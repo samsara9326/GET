@@ -1,5 +1,6 @@
 #include <stdio.h>
 
-void main(){
+int main(){
     printf("Hello Game Engine!\n");
+    return 0;
 }
