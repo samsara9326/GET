@@ -9,6 +9,6 @@ namespace My{
             virtual int Initialize()=0;
             virtual void Finalize()=0;
             virtual void Tick()=0;
-            virtual bool IsQuit()=0;
+            virtual bool IsQuit()=0; //用于查询应用程序是否需要退出
     };
 }
